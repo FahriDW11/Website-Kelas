@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+section {
+  padding: 20px;
+}
+
+#heroSection {
+  background-color: #31363f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 76px 20px;
+  padding-top: 90px;
+}
+
+.heroContainer {
+  color: #eeeeee;
+  font-size: x-large;
+  text-align: center;
+}
+
+.button {
+  background-color: #76abae;
+  color: #222831;
+  font-size: large;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: aquamarine;
+}
